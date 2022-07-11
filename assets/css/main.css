@@ -1,0 +1,33 @@
+:root{
+ --colorPrincipal:#1c7fbd;
+ --colorBorder: #dedede;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; 
+}
+body{
+    background-color: var(--colorPrincipal);
+}
+div{
+    position: relative;
+    width:20%;
+    margin: 20rem auto;
+}
+input{
+    width:100%;
+    height:3rem;
+    border: .1rem solid var(--colorBorder);
+    border-radius: .5rem;
+    padding-left: 5rem;
+}
+i{
+    position:absolute;
+    top:1rem;
+    left:2rem;
+    color: var(--colorPrincipal);
+    font-size: 1.6rem;
+}
